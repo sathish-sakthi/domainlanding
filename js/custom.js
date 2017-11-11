@@ -1,1 +1,3 @@
-document.getElementsByClass("name").innerHTML = window.location.hostname;
+$(document).ready(function(){
+$(".name").html= window.location.hostname;
+});
